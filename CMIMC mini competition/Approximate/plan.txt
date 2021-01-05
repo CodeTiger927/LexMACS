@@ -1,0 +1,12 @@
+Okay so 2 equations, evaluated from -20 to 20
+
+Real equation:
+
+T_x = (3/4) * e^(0.22x) - 8sqrt(3 * |x|) + 14sin(3x/4 - 2) - |x - 43.2|/3 + 40
+
+
+Equations you can choose from
+Y_x = ax^2.2 + bcos(2x + c) + d/(1 + e^(-x)) + log_(|e| + 1.1)(|x| + 0.1) + f
+Tweek the parameters (a,b,c,d,e,f) so that
+for each interger point -20 <= x <= 20, sum of |T_x - Y_x| is minimized
+
