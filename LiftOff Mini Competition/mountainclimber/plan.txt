@@ -1,0 +1,7 @@
+You are trying to climb a mountain!
+
+There are 1000 points, (x,y,z) where z is the altitude. Moving from a point to another takes energy, especially going up and down! Therefore going from (a,b,c) to (x,y,z) takes the following amount of energy
+
+Energy = sqrt((a - x)^2 + (b - y)^2) + (c - z)^2
+
+Since you want to visit all of the points but don't want to stay on the mountain forever, find a path that goes through all of the points and returns to the starting point!
